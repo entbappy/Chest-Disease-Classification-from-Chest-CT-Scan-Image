@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 
         # For remote server only (Dagshub)
-        remote_server_uri = "https://dagshub.com/entbappy/End-to-end-Object-Detection-Project.mlflow"
+        remote_server_uri = "https://dagshub.com/entbappy/MLflow-Expriement-demo.mlflow"
         mlflow.set_tracking_uri(remote_server_uri)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
